@@ -84,6 +84,7 @@ export class Login extends LitElement {
     const passwordStorage = localStorage.getItem("password");
     if (userStorage === this.user && passwordStorage === this.password) {
       window.alert("Has ingresado! :D");
+      
     } else if (!userStorage || !passwordStorage) {
       window.alert("Datos nulos en Local Storage");
     } else if(!this.user || !this.password){
