@@ -6,12 +6,13 @@ export class MyFooter extends LitElement {
   static styles = css`
     .footer {
       background-color: #eb4034;
+      color:white;
       padding: 1rem;
       text-align: center;
     }
   `;
   @property()
-  appName: string = "Nombre del componente";
+  appName: string = "Lección 1";
 
   render() {
     return html`

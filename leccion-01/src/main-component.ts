@@ -10,7 +10,7 @@ export class MyMainComponent extends LitElement {
   `;
 
   @property()
-  header = "Se carga el Header desde componente principal";
+  header = "CAP Lit + Unitest";
   appName = "CAP Lit"
 
   render() {
